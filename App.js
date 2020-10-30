@@ -33,27 +33,27 @@ const St = createStackNavigator({
 
 
 
-// const St2=createStackNavigator({
-//   Tb : {screen : Tb} ,
-// },{
-//   // initialRouteName: 'Tb',
+const St2=createStackNavigator({
+  Tb : {screen : Tb} ,
+},{
+  initialRouteName: 'Tb',
 
-//   navigationOptions: {
-//     style: {
-
-
-//     },
-//     headerStyle: {
+  navigationOptions: {
+    style: {
 
 
-//     },
-//     headerTransparent: true
-//   }
-// })
+    },
+    headerStyle: {
+
+
+    },
+    headerTransparent: true
+  }
+})
 
 const Sw=createSwitchNavigator({
   St,
-  // St2
+  St2
 })
 
 export default class App extends Component {
