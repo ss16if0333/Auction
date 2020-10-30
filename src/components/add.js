@@ -71,21 +71,85 @@ export default class Login extends Component {
               
               <Content >
                 <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
-                  onPress={() => this.Submit()}
+                  onPress={() => this.Register()}
                 >
                   <Text style={{ textAlign: 'center' }}>Register</Text>
                 </Button>
               </Content>
               <Content >
                 <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
-                  onPress={() => this.Submit()}
+                  onPress={() => this.Profile()}
                 >
                   <Text style={{ textAlign: 'center' }}>Profile</Text>
                 </Button>
               </Content>
               <Content >
                 <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Login()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Login</Text>
+                </Button>
+              </Content>
+             
+            </Container>
+            <Container style={{ paddingTop: 15, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
                   onPress={() => this.Submit()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Submit</Text>
+                </Button>
+              </Content>
+              
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Register()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Register</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Profile()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Profile</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Login()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Login</Text>
+                </Button>
+              </Content>
+             
+            </Container>
+            <Container style={{ paddingTop: 15, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Submit()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Submit</Text>
+                </Button>
+              </Content>
+              
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Register()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Register</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Profile()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Profile</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Login()}
                 >
                   <Text style={{ textAlign: 'center' }}>Login</Text>
                 </Button>
