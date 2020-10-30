@@ -12,7 +12,8 @@ export default class Login extends Component {
     this.state = {
       teamName: '',
       password: '',
-      response: 0
+      response: 0,
+      confirmPasswd : null
     }
     
 
@@ -20,6 +21,7 @@ export default class Login extends Component {
   }
 
   Login = async () => {
+    console.log(" it is the changed password for the old password",this.state.confirmPasswd)
     var resp;
     var data;
     var url = `http://${host}:4547/login`;
@@ -30,8 +32,8 @@ export default class Login extends Component {
       .then(function (response) {
         console.log('response', response.data.code);
           resp=response.data.code;
-          // data =response.config.data;
-          // console.log(response);
+          data =response.config.data;
+          console.log(response);
 
       })
       .catch(function (error) {
