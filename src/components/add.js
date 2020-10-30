@@ -68,7 +68,28 @@ export default class Login extends Component {
                   <Text style={{ textAlign: 'center' }}>Submit</Text>
                 </Button>
               </Content>
-
+              
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Submit()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Register</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Submit()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Profile</Text>
+                </Button>
+              </Content>
+              <Content >
+                <Button bordered style={{ width: 160, justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}
+                  onPress={() => this.Submit()}
+                >
+                  <Text style={{ textAlign: 'center' }}>Login</Text>
+                </Button>
+              </Content>
              
             </Container>
           </Form>
